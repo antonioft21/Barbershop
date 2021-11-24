@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+}
+#menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 1px;
+    border-bottom-color:rgb(255, 255, 255);
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+}
+#menu ul{
+    display: flex;
+    list-style: none;
+
+}
+#menu li{
+    margin: 10px;
+}
+#menu a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+#pos-about-us{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+}
+#about-us{
+    margin-left: 20px;
+    margin-top: 20px;
+    min-width: 800px;
+    background-image: url(../assets/us-background.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 75%;
+}
+#about-us img{
+    min-height: 80%;
+    max-width: 800px;
+}
+#text-about-us{
+    margin: 25px;
+}
+#text-about-us h2{
+    color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 28px;   
+}
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo img{
+    width: 200px;
+}
+#pos-testimonios{
+    background-color: rgb(255, 255, 255);
+    margin: 40px;
+    display: flex;
+    min-height: 400px;
+}
+#pos-testimonios img{
+    width: 90px;
+    
+}
+#testimonios{
+    box-shadow: 0 0 20px 0 #6e6e6e;
+    max-width: 400px;
+    margin: 40px;
+    max-height: 200px;
+    padding: 20px;
+}
+#pos-h2{
+    margin: 40px;
+    font-size: 30px;  
+}
+#pos-clientes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(0, 0, 0);
+}
+#clientes{
+    margin:40px
+}
+#clientes img{
+    max-width: 400px;
+}
+#pos-horario{
+    min-height: 400px;
+    background-image: url(../assets/peluqueria.jpg);
+    background-position:;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+#pos-donde-estamos{
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+#pos-horario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pos-h2-horario{
+    /* color: rgb(255, 255, 255); */
+    background-color: rgb(255, 255, 255,0.5);
+    width: 400px;
+    text-align: center;
+}
+#pos-h2-horario p{
+    font-size: 18px;
+}
+#pos-local{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(0, 0, 0);
+}
+#pos-local img{
+    max-width: 600px;
+    margin: 30px;
+}
+#newsletter{
+    margin: 20px;
+}
+#newsletter label{
+    display: flex;
+    margin: 20px;
+}
+#newsletter input{
+    border-style: inset;
+    width: 250px;
+    height: 30px;
+}
+#newsletter button{
+    border-style: inset;
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+    text-align: center;
+    width: 257px;
+}
+#newsletter article{
+    display: flex;
+    margin: 20px;
+}
+#newsletter div{
+    border: groove;
+    border-width: 5px;
+    width: 40px;
+    margin: 20px;
+}
+#newsletter img{
+    width: 30px;
+    margin-right: 80px;
+    margin: 0 auto;
+    display: flex;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    margin-bottom: 0;
+    margin-top:0;
+}
+#politicas ul{
+    list-style: none;
+    display: flex;
+    margin: 20px;
+    align-items: center;
+}
+#politicas li{
+    margin: 20px;
+    align-items: center;
+}
+#politicas{
+    display: flex;
+    font-size: 20px;
+}
+
